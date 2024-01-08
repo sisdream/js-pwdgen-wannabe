@@ -1,18 +1,18 @@
-const CreatPass = document.getElementById("password")
+const creatPass = document.getElementById("password")
 
 //NOME
-const FirstName = prompt("Inserisci il tuo nome");
-console.log(FirstName);
+const firstName = prompt("Inserisci il tuo nome");
+console.log(firstName);
 
 //COGNOME
-const SurName = prompt("Inserisci il tuo cognome");
-console.log(SurName);
+const surName = prompt("Inserisci il tuo cognome");
+console.log(surName);
 
 //COLORE PREFERITO
-const FavColor = prompt("Inserisci il tuo colore preferito");
-console.log(FavColor);
+const favColor = prompt("Inserisci il tuo colore preferito");
+console.log(favColor);
 
 //CREAZIONE PASSWORD
-const PassWord = FirstName + SurName + FavColor + "23";
-console.log(PassWord);
-CreatPass.innerHTML = `La tua password è <mark> ${PassWord} </mark>`; 
+const passWord = firstName + surName + favColor + "23";
+console.log(passWord);
+creatPass.innerHTML = `La tua password è <mark> ${passWord} </mark>`; 
