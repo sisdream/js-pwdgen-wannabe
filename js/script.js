@@ -13,6 +13,6 @@ const favColor = prompt("Inserisci il tuo colore preferito");
 console.log(favColor);
 
 //CREAZIONE PASSWORD
-const passWord = firstName + surname + favColor + "23";
-console.log(passWord);
-creatPass.innerHTML = `La tua password è <mark> ${passWord} </mark>`; 
+const password = firstName + surname + favColor + "23";
+console.log(password);
+creatPass.innerHTML = `La tua password è <mark> ${password} </mark>`; 
